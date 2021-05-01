@@ -4,7 +4,7 @@
 int main()
 {
 	int a = 3;
-		a = a + 3;
+	a = a + 3;
  
 	printf("a의 값은? : %d \n", a);
 	
