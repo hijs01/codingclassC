@@ -3,7 +3,29 @@
 
 int main()
 {
-	printf("kiana u don't fact time me anymore");
+	int i, j, k;
+	int num;
+	printf("별의 층수를 입력하세요 : ");
+	scanf("%d",&num);
 	
-	return 0;
+	for (i = 0; i < num; i++)
+	{
+		for(k = 0; k < num - i - 1; k++)
+		{
+			printf(" ");
+		
+		}
+		for(j = 0; j < i * 2 + 1; j++)
+		{ 
+			printf("*");
+		
+		}
+	}
+	
+	printf("\n");
+	
+	
 }
+
+
+	
